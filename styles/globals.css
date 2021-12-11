@@ -1,0 +1,141 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, CeraCompact,
+		CeraCompactPro, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+		Helvetica Neue, sans-serif;
+}
+
+@font-face {
+	font-family: "CeraCompact";
+	src: url("/fonts/CeraBold.ttf");
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CeraCompact";
+	src: url("/fonts/CeraProMedium.ttf");
+	font-style: medium;
+	font-weight: 500;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CeraCompactPro";
+	src: url("/fonts/CeraProBlack.ttf");
+	font-style: medium;
+	font-weight: 700;
+	font-display: swap;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.cerafont {
+	font-family: "CeraCompactPro", "sans-serif";
+	font-weight: 700;
+}
+.headLine {
+	font-size: 3.5rem;
+  
+}
+
+.bg-primary {
+	color: #f6f6f6 !important;
+	background-color: #40357a !important;
+}
+
+.text-primary {
+	color: #40357a !important;
+	font-family: "CeraCompact", "Sans-serif";
+	font-weight: bold;
+}
+.qoute {
+	color: #00cacd;
+	font-size: 35px;
+	top: -30px;
+
+	right: 50%;
+
+	z-index: 999;
+
+	position: absolute;
+}
+.text-orange {
+	color: orange;
+}
+.primary {
+	color: #00cacd;
+}
+.text-muted {
+	color: #f6f6f6;
+}
+
+.btn-info {
+	background-color: #0c96c5 !important;
+	color: white !important;
+}
+
+/* navbar */
+
+.border-left {
+	border-left: 1px solid black;
+}
+
+/* header */
+
+.bg-img {
+	background-image: url("../public/header-bg.png");
+	height: auto;
+	padding: 200px 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.btn-search {
+	background-color: #00cacd;
+	color: white;
+}
+
+.border-search {
+	border: 15px solid #605691;
+	border-radius: 5px;
+}
+
+.stepper {
+	margin-top: -150px;
+}
+
+.testimonialWrapper {
+	background-image: url("../public/Group\ 4.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px;
+	margin-top: 30px;
+	position: relative;
+}
+
+.searchCardTitle {
+	color: #00cacd;
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+
+.searchCardItem {
+	line-height: 10px;
+}
+
+.testimonialCard {
+	width: 18rem !important;
+	position: relative;
+}
