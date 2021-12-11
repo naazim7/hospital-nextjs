@@ -16,7 +16,15 @@ body {
 }
 @font-face {
 	font-family: "CeraCompact";
-	src: url("/fonts/CeraProMedium.ttf");
+	src: url("/fonts/CeraProMedium.otf");
+	font-style: medium;
+	font-weight: 500;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CeraCompactRegular";
+	src: url("/fonts/CeraRegular.otf");
 	font-style: medium;
 	font-weight: 500;
 	font-display: swap;
@@ -24,7 +32,7 @@ body {
 
 @font-face {
 	font-family: "CeraCompactPro";
-	src: url("/fonts/CeraProBlack.ttf");
+	src: url("/fonts/CeraProBlack.otf");
 	font-style: medium;
 	font-weight: 700;
 	font-display: swap;
@@ -40,13 +48,13 @@ a {
 }
 
 .cerafont {
-	font-family: "CeraCompactPro", "sans-serif";
+	font-family: "CeraCompactRegular", "sans-serif";
 	font-weight: 700;
 }
 .headLine {
-	font-size: 4rem!important;
-	font-family: "Oxygen", "sans-serif";
-	font-weight: 700!important;
+	font-size: 4rem !important;
+	font-family: "CeraCompactPro", "sans-serif";
+	font-weight: 700 !important;
 }
 
 .bg-primary {
