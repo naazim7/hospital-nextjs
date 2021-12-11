@@ -1,5 +1,7 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from 'next/image';
+import React from 'react';
+import { AiOutlineFileSearch } from 'react-icons/ai';
+import { FaSearchLocation, FaUserClock } from 'react-icons/fa';
 
 function Header() {
     return (
@@ -14,19 +16,19 @@ function Header() {
                     <div className="input-group">
                         <div className="input-group-append">
                             <button className="btn">
-                                <i className="fa fa-search"></i>
+                               <FaUserClock color="#00cacd"/>
                             </button>
                         </div>
                         <input type="search" placeholder="What're you searching for?" aria-describedby="button-addon1" className="form-control border-0 bg-light" />
                         <div className="input-group-append">
                             <button className="btn">
-                                <i className="fa fa-search"></i>
+                             <FaSearchLocation color="#00cacd"/>
                             </button>
                         </div>
                         <input type="search" placeholder="What're you searching for?" aria-describedby="button-addon1" className="form-control border-0 bg-light" />
                         <div className="input-group-append">
                             <button className="btn">
-                                <i className="fa fa-search"></i>
+                              <AiOutlineFileSearch color="#00cacd"/>
                             </button>
                         </div>
                         <input type="search" placeholder="What're you searching for?" aria-describedby="button-addon1" className="form-control border-0 bg-light" />

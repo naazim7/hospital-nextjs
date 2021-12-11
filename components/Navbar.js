@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { FaGlobeAmericas, FaUserAlt } from 'react-icons/fa';
+import { IoMdArrowDropdown } from 'react-icons/io';
 
 
 function Navbar() {
@@ -30,7 +31,7 @@ function Navbar() {
                             <a className="nav-link active" aria-current="page" href="#"><FaUserAlt color="steelblue"/> Log In</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#"><FaGlobeAmericas color="steelblue"/> GR</a>
+                            <a className="nav-link active" aria-current="page" href="#"><FaGlobeAmericas color="steelblue"/> GR<IoMdArrowDropdown/></a>
                         </li>
                     </div>
                 </div>
